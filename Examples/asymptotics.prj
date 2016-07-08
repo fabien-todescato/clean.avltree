@@ -1,0 +1,1157 @@
+Version: 1.4
+Global
+	Built:	True
+	Target:	StdEnv
+	Exec:	{Application}\Functional.Library\avlTree\Examples\asymptotics.exe
+	CodeGen
+		CheckStacks:	False
+		CheckIndexes:	False
+		TargetProcessor:	CurrentProcessor
+	Application
+		HeapSize:	409600
+		StackSize:	102400
+		ExtraMemory:	81920
+		IntialHeapSize:	204800
+		HeapSizeMultiplier:	4096
+		ShowExecutionTime:	True
+		ShowGC:	True
+		ShowStackSize:	False
+		MarkingCollector:	False
+		StandardRuntimeEnv:	True
+		Profile
+			Memory:	False
+			MemoryMinimumHeapSize:	0
+			Time:	False
+			Stack:	False
+		Output
+			Output:	ShowConstructors
+			Font:	Courier
+			FontSize:	9
+			WriteStdErr:	False
+	Link
+		LinkMethod:	Static
+		GenerateRelocations:	False
+		GenerateLinkMap:	False
+	Paths
+		Path:	{Project}
+		Path:	{Application}\Functional.Library\avlTree
+MainModule
+	Name:	asymptotics
+	Dir:	{Project}
+	Compiler
+		NeverMemoryProfile:	False
+		NeverTimeProfile:	False
+		StrictnessAnalysis:	True
+		ListTypes:	AllTypes
+		ListAttributes:	True
+		Warnings:	True
+		Verbose:	True
+		ReadableABC:	True
+		ReuseUniqueNodes:	True
+	Dcl
+		Editor
+			TabSize:	2
+			Font:	Courier New
+			FontSize:	10
+			AutoIndent:	True
+			ShowTabs:	True
+			ShowLins:	True
+		WindowPosition
+			X:	0
+			Y:	0
+			SizeX:	500
+			SizeY:	300
+	DclOpen:	False
+	Icl
+		Editor
+			TabSize:	2
+			Font:	Courier New
+			FontSize:	10
+			AutoIndent:	True
+			ShowTabs:	True
+			ShowLins:	True
+		WindowPosition
+			X:	0
+			Y:	0
+			SizeX:	500
+			SizeY:	300
+	IclOpen:	True
+	LastModified:	No 0 0 0 0 0 0
+OtherModules
+	Module
+		Name:	mapClass
+		Dir:	{Application}\Functional.Library\avlTree
+		Compiler
+			NeverMemoryProfile:	False
+			NeverTimeProfile:	False
+			StrictnessAnalysis:	True
+			ListTypes:	AllTypes
+			ListAttributes:	True
+			Warnings:	True
+			Verbose:	True
+			ReadableABC:	True
+			ReuseUniqueNodes:	True
+		Dcl
+			Editor
+				TabSize:	2
+				Font:	Courier New
+				FontSize:	10
+				AutoIndent:	True
+				ShowTabs:	True
+				ShowLins:	True
+			WindowPosition
+				X:	0
+				Y:	0
+				SizeX:	500
+				SizeY:	300
+		DclOpen:	False
+		Icl
+			Editor
+				TabSize:	2
+				Font:	Courier New
+				FontSize:	10
+				AutoIndent:	True
+				ShowTabs:	True
+				ShowLins:	True
+			WindowPosition
+				X:	0
+				Y:	0
+				SizeX:	500
+				SizeY:	300
+		IclOpen:	False
+		LastModified:	No 0 0 0 0 0 0
+	Module
+		Name:	setClass
+		Dir:	{Application}\Functional.Library\avlTree
+		Compiler
+			NeverMemoryProfile:	False
+			NeverTimeProfile:	False
+			StrictnessAnalysis:	True
+			ListTypes:	AllTypes
+			ListAttributes:	True
+			Warnings:	True
+			Verbose:	True
+			ReadableABC:	True
+			ReuseUniqueNodes:	True
+		Dcl
+			Editor
+				TabSize:	2
+				Font:	Courier New
+				FontSize:	10
+				AutoIndent:	True
+				ShowTabs:	True
+				ShowLins:	True
+			WindowPosition
+				X:	0
+				Y:	0
+				SizeX:	500
+				SizeY:	300
+		DclOpen:	False
+		Icl
+			Editor
+				TabSize:	2
+				Font:	Courier New
+				FontSize:	10
+				AutoIndent:	True
+				ShowTabs:	True
+				ShowLins:	True
+			WindowPosition
+				X:	0
+				Y:	0
+				SizeX:	500
+				SizeY:	300
+		IclOpen:	False
+		LastModified:	No 0 0 0 0 0 0
+	Module
+		Name:	sequenceClass
+		Dir:	{Application}\Functional.Library\avlTree
+		Compiler
+			NeverMemoryProfile:	False
+			NeverTimeProfile:	False
+			StrictnessAnalysis:	True
+			ListTypes:	AllTypes
+			ListAttributes:	True
+			Warnings:	True
+			Verbose:	True
+			ReadableABC:	True
+			ReuseUniqueNodes:	True
+		Dcl
+			Editor
+				TabSize:	2
+				Font:	Courier New
+				FontSize:	10
+				AutoIndent:	True
+				ShowTabs:	True
+				ShowLins:	True
+			WindowPosition
+				X:	0
+				Y:	0
+				SizeX:	500
+				SizeY:	300
+		DclOpen:	False
+		Icl
+			Editor
+				TabSize:	2
+				Font:	Courier New
+				FontSize:	10
+				AutoIndent:	True
+				ShowTabs:	True
+				ShowLins:	True
+			WindowPosition
+				X:	0
+				Y:	0
+				SizeX:	500
+				SizeY:	300
+		IclOpen:	False
+		LastModified:	No 0 0 0 0 0 0
+	Module
+		Name:	_SystemEnum
+		Dir:	{Application}\StdEnv
+		Compiler
+			NeverMemoryProfile:	False
+			NeverTimeProfile:	False
+			StrictnessAnalysis:	True
+			ListTypes:	AllTypes
+			ListAttributes:	True
+			Warnings:	True
+			Verbose:	True
+			ReadableABC:	True
+			ReuseUniqueNodes:	True
+		Dcl
+			Editor
+				TabSize:	2
+				Font:	Courier New
+				FontSize:	10
+				AutoIndent:	True
+				ShowTabs:	True
+				ShowLins:	True
+			WindowPosition
+				X:	0
+				Y:	0
+				SizeX:	500
+				SizeY:	300
+		DclOpen:	False
+		Icl
+			Editor
+				TabSize:	2
+				Font:	Courier New
+				FontSize:	10
+				AutoIndent:	True
+				ShowTabs:	True
+				ShowLins:	True
+			WindowPosition
+				X:	0
+				Y:	0
+				SizeX:	500
+				SizeY:	300
+		IclOpen:	False
+		LastModified:	No 0 0 0 0 0 0
+	Module
+		Name:	StdEnum
+		Dir:	{Application}\StdEnv
+		Compiler
+			NeverMemoryProfile:	False
+			NeverTimeProfile:	False
+			StrictnessAnalysis:	True
+			ListTypes:	AllTypes
+			ListAttributes:	True
+			Warnings:	True
+			Verbose:	True
+			ReadableABC:	True
+			ReuseUniqueNodes:	True
+		Dcl
+			Editor
+				TabSize:	2
+				Font:	Courier New
+				FontSize:	10
+				AutoIndent:	True
+				ShowTabs:	True
+				ShowLins:	True
+			WindowPosition
+				X:	0
+				Y:	0
+				SizeX:	500
+				SizeY:	300
+		DclOpen:	False
+		Icl
+			Editor
+				TabSize:	2
+				Font:	Courier New
+				FontSize:	10
+				AutoIndent:	True
+				ShowTabs:	True
+				ShowLins:	True
+			WindowPosition
+				X:	0
+				Y:	0
+				SizeX:	500
+				SizeY:	300
+		IclOpen:	False
+		LastModified:	No 0 0 0 0 0 0
+	Module
+		Name:	StdMisc
+		Dir:	{Application}\StdEnv
+		Compiler
+			NeverMemoryProfile:	False
+			NeverTimeProfile:	False
+			StrictnessAnalysis:	True
+			ListTypes:	AllTypes
+			ListAttributes:	True
+			Warnings:	True
+			Verbose:	True
+			ReadableABC:	True
+			ReuseUniqueNodes:	True
+		Dcl
+			Editor
+				TabSize:	2
+				Font:	Courier New
+				FontSize:	10
+				AutoIndent:	True
+				ShowTabs:	True
+				ShowLins:	True
+			WindowPosition
+				X:	0
+				Y:	0
+				SizeX:	500
+				SizeY:	300
+		DclOpen:	False
+		Icl
+			Editor
+				TabSize:	2
+				Font:	Courier New
+				FontSize:	10
+				AutoIndent:	True
+				ShowTabs:	True
+				ShowLins:	True
+			WindowPosition
+				X:	0
+				Y:	0
+				SizeX:	500
+				SizeY:	300
+		IclOpen:	False
+		LastModified:	No 0 0 0 0 0 0
+	Module
+		Name:	StdFunc
+		Dir:	{Application}\StdEnv
+		Compiler
+			NeverMemoryProfile:	False
+			NeverTimeProfile:	False
+			StrictnessAnalysis:	True
+			ListTypes:	AllTypes
+			ListAttributes:	True
+			Warnings:	True
+			Verbose:	True
+			ReadableABC:	True
+			ReuseUniqueNodes:	True
+		Dcl
+			Editor
+				TabSize:	2
+				Font:	Courier New
+				FontSize:	10
+				AutoIndent:	True
+				ShowTabs:	True
+				ShowLins:	True
+			WindowPosition
+				X:	0
+				Y:	0
+				SizeX:	500
+				SizeY:	300
+		DclOpen:	False
+		Icl
+			Editor
+				TabSize:	2
+				Font:	Courier New
+				FontSize:	10
+				AutoIndent:	True
+				ShowTabs:	True
+				ShowLins:	True
+			WindowPosition
+				X:	0
+				Y:	0
+				SizeX:	500
+				SizeY:	300
+		IclOpen:	False
+		LastModified:	No 0 0 0 0 0 0
+	Module
+		Name:	StdCharList
+		Dir:	{Application}\StdEnv
+		Compiler
+			NeverMemoryProfile:	False
+			NeverTimeProfile:	False
+			StrictnessAnalysis:	True
+			ListTypes:	AllTypes
+			ListAttributes:	True
+			Warnings:	True
+			Verbose:	True
+			ReadableABC:	True
+			ReuseUniqueNodes:	True
+		Dcl
+			Editor
+				TabSize:	2
+				Font:	Courier New
+				FontSize:	10
+				AutoIndent:	True
+				ShowTabs:	True
+				ShowLins:	True
+			WindowPosition
+				X:	0
+				Y:	0
+				SizeX:	500
+				SizeY:	300
+		DclOpen:	False
+		Icl
+			Editor
+				TabSize:	2
+				Font:	Courier New
+				FontSize:	10
+				AutoIndent:	True
+				ShowTabs:	True
+				ShowLins:	True
+			WindowPosition
+				X:	0
+				Y:	0
+				SizeX:	500
+				SizeY:	300
+		IclOpen:	False
+		LastModified:	No 0 0 0 0 0 0
+	Module
+		Name:	StdTuple
+		Dir:	{Application}\StdEnv
+		Compiler
+			NeverMemoryProfile:	False
+			NeverTimeProfile:	False
+			StrictnessAnalysis:	True
+			ListTypes:	AllTypes
+			ListAttributes:	True
+			Warnings:	True
+			Verbose:	True
+			ReadableABC:	True
+			ReuseUniqueNodes:	True
+		Dcl
+			Editor
+				TabSize:	2
+				Font:	Courier New
+				FontSize:	10
+				AutoIndent:	True
+				ShowTabs:	True
+				ShowLins:	True
+			WindowPosition
+				X:	0
+				Y:	0
+				SizeX:	500
+				SizeY:	300
+		DclOpen:	False
+		Icl
+			Editor
+				TabSize:	2
+				Font:	Courier New
+				FontSize:	10
+				AutoIndent:	True
+				ShowTabs:	True
+				ShowLins:	True
+			WindowPosition
+				X:	0
+				Y:	0
+				SizeX:	500
+				SizeY:	300
+		IclOpen:	False
+		LastModified:	No 0 0 0 0 0 0
+	Module
+		Name:	StdOrdList
+		Dir:	{Application}\StdEnv
+		Compiler
+			NeverMemoryProfile:	False
+			NeverTimeProfile:	False
+			StrictnessAnalysis:	True
+			ListTypes:	AllTypes
+			ListAttributes:	True
+			Warnings:	True
+			Verbose:	True
+			ReadableABC:	True
+			ReuseUniqueNodes:	True
+		Dcl
+			Editor
+				TabSize:	2
+				Font:	Courier New
+				FontSize:	10
+				AutoIndent:	True
+				ShowTabs:	True
+				ShowLins:	True
+			WindowPosition
+				X:	0
+				Y:	0
+				SizeX:	500
+				SizeY:	300
+		DclOpen:	False
+		Icl
+			Editor
+				TabSize:	2
+				Font:	Courier New
+				FontSize:	10
+				AutoIndent:	True
+				ShowTabs:	True
+				ShowLins:	True
+			WindowPosition
+				X:	0
+				Y:	0
+				SizeX:	500
+				SizeY:	300
+		IclOpen:	False
+		LastModified:	No 0 0 0 0 0 0
+	Module
+		Name:	StdList
+		Dir:	{Application}\StdEnv
+		Compiler
+			NeverMemoryProfile:	False
+			NeverTimeProfile:	False
+			StrictnessAnalysis:	True
+			ListTypes:	AllTypes
+			ListAttributes:	True
+			Warnings:	True
+			Verbose:	True
+			ReadableABC:	True
+			ReuseUniqueNodes:	True
+		Dcl
+			Editor
+				TabSize:	2
+				Font:	Courier New
+				FontSize:	10
+				AutoIndent:	True
+				ShowTabs:	True
+				ShowLins:	True
+			WindowPosition
+				X:	0
+				Y:	0
+				SizeX:	500
+				SizeY:	300
+		DclOpen:	False
+		Icl
+			Editor
+				TabSize:	2
+				Font:	Courier New
+				FontSize:	10
+				AutoIndent:	True
+				ShowTabs:	True
+				ShowLins:	True
+			WindowPosition
+				X:	0
+				Y:	0
+				SizeX:	500
+				SizeY:	300
+		IclOpen:	False
+		LastModified:	No 0 0 0 0 0 0
+	Module
+		Name:	StdClass
+		Dir:	{Application}\StdEnv
+		Compiler
+			NeverMemoryProfile:	False
+			NeverTimeProfile:	False
+			StrictnessAnalysis:	True
+			ListTypes:	AllTypes
+			ListAttributes:	True
+			Warnings:	True
+			Verbose:	True
+			ReadableABC:	True
+			ReuseUniqueNodes:	True
+		Dcl
+			Editor
+				TabSize:	2
+				Font:	Courier New
+				FontSize:	10
+				AutoIndent:	True
+				ShowTabs:	True
+				ShowLins:	True
+			WindowPosition
+				X:	0
+				Y:	0
+				SizeX:	500
+				SizeY:	300
+		DclOpen:	False
+		Icl
+			Editor
+				TabSize:	2
+				Font:	Courier New
+				FontSize:	10
+				AutoIndent:	True
+				ShowTabs:	True
+				ShowLins:	True
+			WindowPosition
+				X:	0
+				Y:	0
+				SizeX:	500
+				SizeY:	300
+		IclOpen:	False
+		LastModified:	No 0 0 0 0 0 0
+	Module
+		Name:	StdFile
+		Dir:	{Application}\StdEnv
+		Compiler
+			NeverMemoryProfile:	False
+			NeverTimeProfile:	False
+			StrictnessAnalysis:	True
+			ListTypes:	AllTypes
+			ListAttributes:	True
+			Warnings:	True
+			Verbose:	True
+			ReadableABC:	True
+			ReuseUniqueNodes:	True
+		Dcl
+			Editor
+				TabSize:	2
+				Font:	Courier New
+				FontSize:	10
+				AutoIndent:	True
+				ShowTabs:	True
+				ShowLins:	True
+			WindowPosition
+				X:	0
+				Y:	0
+				SizeX:	500
+				SizeY:	300
+		DclOpen:	False
+		Icl
+			Editor
+				TabSize:	2
+				Font:	Courier New
+				FontSize:	10
+				AutoIndent:	True
+				ShowTabs:	True
+				ShowLins:	True
+			WindowPosition
+				X:	0
+				Y:	0
+				SizeX:	500
+				SizeY:	300
+		IclOpen:	False
+		LastModified:	No 0 0 0 0 0 0
+	Module
+		Name:	StdString
+		Dir:	{Application}\StdEnv
+		Compiler
+			NeverMemoryProfile:	False
+			NeverTimeProfile:	False
+			StrictnessAnalysis:	True
+			ListTypes:	AllTypes
+			ListAttributes:	True
+			Warnings:	True
+			Verbose:	True
+			ReadableABC:	True
+			ReuseUniqueNodes:	True
+		Dcl
+			Editor
+				TabSize:	2
+				Font:	Courier New
+				FontSize:	10
+				AutoIndent:	True
+				ShowTabs:	True
+				ShowLins:	True
+			WindowPosition
+				X:	0
+				Y:	0
+				SizeX:	500
+				SizeY:	300
+		DclOpen:	False
+		Icl
+			Editor
+				TabSize:	2
+				Font:	Courier New
+				FontSize:	10
+				AutoIndent:	True
+				ShowTabs:	True
+				ShowLins:	True
+			WindowPosition
+				X:	0
+				Y:	0
+				SizeX:	500
+				SizeY:	300
+		IclOpen:	False
+		LastModified:	No 0 0 0 0 0 0
+	Module
+		Name:	_SystemArray
+		Dir:	{Application}\StdEnv
+		Compiler
+			NeverMemoryProfile:	False
+			NeverTimeProfile:	False
+			StrictnessAnalysis:	True
+			ListTypes:	AllTypes
+			ListAttributes:	True
+			Warnings:	True
+			Verbose:	True
+			ReadableABC:	True
+			ReuseUniqueNodes:	True
+		Dcl
+			Editor
+				TabSize:	2
+				Font:	Courier New
+				FontSize:	10
+				AutoIndent:	True
+				ShowTabs:	True
+				ShowLins:	True
+			WindowPosition
+				X:	0
+				Y:	0
+				SizeX:	500
+				SizeY:	300
+		DclOpen:	False
+		Icl
+			Editor
+				TabSize:	2
+				Font:	Courier New
+				FontSize:	10
+				AutoIndent:	True
+				ShowTabs:	True
+				ShowLins:	True
+			WindowPosition
+				X:	0
+				Y:	0
+				SizeX:	500
+				SizeY:	300
+		IclOpen:	False
+		LastModified:	No 0 0 0 0 0 0
+	Module
+		Name:	StdArray
+		Dir:	{Application}\StdEnv
+		Compiler
+			NeverMemoryProfile:	False
+			NeverTimeProfile:	False
+			StrictnessAnalysis:	True
+			ListTypes:	AllTypes
+			ListAttributes:	True
+			Warnings:	True
+			Verbose:	True
+			ReadableABC:	True
+			ReuseUniqueNodes:	True
+		Dcl
+			Editor
+				TabSize:	2
+				Font:	Courier New
+				FontSize:	10
+				AutoIndent:	True
+				ShowTabs:	True
+				ShowLins:	True
+			WindowPosition
+				X:	0
+				Y:	0
+				SizeX:	500
+				SizeY:	300
+		DclOpen:	False
+		Icl
+			Editor
+				TabSize:	2
+				Font:	Courier New
+				FontSize:	10
+				AutoIndent:	True
+				ShowTabs:	True
+				ShowLins:	True
+			WindowPosition
+				X:	0
+				Y:	0
+				SizeX:	500
+				SizeY:	300
+		IclOpen:	False
+		LastModified:	No 0 0 0 0 0 0
+	Module
+		Name:	StdChar
+		Dir:	{Application}\StdEnv
+		Compiler
+			NeverMemoryProfile:	False
+			NeverTimeProfile:	False
+			StrictnessAnalysis:	True
+			ListTypes:	AllTypes
+			ListAttributes:	True
+			Warnings:	True
+			Verbose:	True
+			ReadableABC:	True
+			ReuseUniqueNodes:	True
+		Dcl
+			Editor
+				TabSize:	2
+				Font:	Courier New
+				FontSize:	10
+				AutoIndent:	True
+				ShowTabs:	True
+				ShowLins:	True
+			WindowPosition
+				X:	0
+				Y:	0
+				SizeX:	500
+				SizeY:	300
+		DclOpen:	False
+		Icl
+			Editor
+				TabSize:	2
+				Font:	Courier New
+				FontSize:	10
+				AutoIndent:	True
+				ShowTabs:	True
+				ShowLins:	True
+			WindowPosition
+				X:	0
+				Y:	0
+				SizeX:	500
+				SizeY:	300
+		IclOpen:	False
+		LastModified:	No 0 0 0 0 0 0
+	Module
+		Name:	StdReal
+		Dir:	{Application}\StdEnv
+		Compiler
+			NeverMemoryProfile:	False
+			NeverTimeProfile:	False
+			StrictnessAnalysis:	True
+			ListTypes:	AllTypes
+			ListAttributes:	True
+			Warnings:	True
+			Verbose:	True
+			ReadableABC:	True
+			ReuseUniqueNodes:	True
+		Dcl
+			Editor
+				TabSize:	2
+				Font:	Courier New
+				FontSize:	10
+				AutoIndent:	True
+				ShowTabs:	True
+				ShowLins:	True
+			WindowPosition
+				X:	0
+				Y:	0
+				SizeX:	500
+				SizeY:	300
+		DclOpen:	False
+		Icl
+			Editor
+				TabSize:	2
+				Font:	Courier New
+				FontSize:	10
+				AutoIndent:	True
+				ShowTabs:	True
+				ShowLins:	True
+			WindowPosition
+				X:	0
+				Y:	0
+				SizeX:	500
+				SizeY:	300
+		IclOpen:	False
+		LastModified:	No 0 0 0 0 0 0
+	Module
+		Name:	StdInt
+		Dir:	{Application}\StdEnv
+		Compiler
+			NeverMemoryProfile:	False
+			NeverTimeProfile:	False
+			StrictnessAnalysis:	True
+			ListTypes:	AllTypes
+			ListAttributes:	True
+			Warnings:	True
+			Verbose:	True
+			ReadableABC:	True
+			ReuseUniqueNodes:	True
+		Dcl
+			Editor
+				TabSize:	2
+				Font:	Courier New
+				FontSize:	10
+				AutoIndent:	True
+				ShowTabs:	True
+				ShowLins:	True
+			WindowPosition
+				X:	0
+				Y:	0
+				SizeX:	500
+				SizeY:	300
+		DclOpen:	False
+		Icl
+			Editor
+				TabSize:	2
+				Font:	Courier New
+				FontSize:	10
+				AutoIndent:	True
+				ShowTabs:	True
+				ShowLins:	True
+			WindowPosition
+				X:	0
+				Y:	0
+				SizeX:	500
+				SizeY:	300
+		IclOpen:	False
+		LastModified:	No 0 0 0 0 0 0
+	Module
+		Name:	StdOverloaded
+		Dir:	{Application}\StdEnv
+		Compiler
+			NeverMemoryProfile:	False
+			NeverTimeProfile:	False
+			StrictnessAnalysis:	True
+			ListTypes:	AllTypes
+			ListAttributes:	True
+			Warnings:	True
+			Verbose:	True
+			ReadableABC:	True
+			ReuseUniqueNodes:	True
+		Dcl
+			Editor
+				TabSize:	2
+				Font:	Courier New
+				FontSize:	10
+				AutoIndent:	True
+				ShowTabs:	True
+				ShowLins:	True
+			WindowPosition
+				X:	0
+				Y:	0
+				SizeX:	500
+				SizeY:	300
+		DclOpen:	False
+		Icl
+			Editor
+				TabSize:	2
+				Font:	Courier New
+				FontSize:	10
+				AutoIndent:	True
+				ShowTabs:	True
+				ShowLins:	True
+			WindowPosition
+				X:	0
+				Y:	0
+				SizeX:	500
+				SizeY:	300
+		IclOpen:	False
+		LastModified:	No 0 0 0 0 0 0
+	Module
+		Name:	StdBool
+		Dir:	{Application}\StdEnv
+		Compiler
+			NeverMemoryProfile:	False
+			NeverTimeProfile:	False
+			StrictnessAnalysis:	True
+			ListTypes:	AllTypes
+			ListAttributes:	True
+			Warnings:	True
+			Verbose:	True
+			ReadableABC:	True
+			ReuseUniqueNodes:	True
+		Dcl
+			Editor
+				TabSize:	2
+				Font:	Courier New
+				FontSize:	10
+				AutoIndent:	True
+				ShowTabs:	True
+				ShowLins:	True
+			WindowPosition
+				X:	0
+				Y:	0
+				SizeX:	500
+				SizeY:	300
+		DclOpen:	False
+		Icl
+			Editor
+				TabSize:	2
+				Font:	Courier New
+				FontSize:	10
+				AutoIndent:	True
+				ShowTabs:	True
+				ShowLins:	True
+			WindowPosition
+				X:	0
+				Y:	0
+				SizeX:	500
+				SizeY:	300
+		IclOpen:	False
+		LastModified:	No 0 0 0 0 0 0
+	Module
+		Name:	StdEnv
+		Dir:	{Application}\StdEnv
+		Compiler
+			NeverMemoryProfile:	False
+			NeverTimeProfile:	False
+			StrictnessAnalysis:	True
+			ListTypes:	AllTypes
+			ListAttributes:	True
+			Warnings:	True
+			Verbose:	True
+			ReadableABC:	True
+			ReuseUniqueNodes:	True
+		Dcl
+			Editor
+				TabSize:	2
+				Font:	Courier New
+				FontSize:	10
+				AutoIndent:	True
+				ShowTabs:	True
+				ShowLins:	True
+			WindowPosition
+				X:	0
+				Y:	0
+				SizeX:	500
+				SizeY:	300
+		DclOpen:	False
+		Icl
+			Editor
+				TabSize:	2
+				Font:	Courier New
+				FontSize:	10
+				AutoIndent:	True
+				ShowTabs:	True
+				ShowLins:	True
+			WindowPosition
+				X:	0
+				Y:	0
+				SizeX:	500
+				SizeY:	300
+		IclOpen:	False
+		LastModified:	No 0 0 0 0 0 0
+	Module
+		Name:	orderClass
+		Dir:	{Application}\Functional.Library\avlTree
+		Compiler
+			NeverMemoryProfile:	False
+			NeverTimeProfile:	False
+			StrictnessAnalysis:	True
+			ListTypes:	AllTypes
+			ListAttributes:	True
+			Warnings:	True
+			Verbose:	True
+			ReadableABC:	True
+			ReuseUniqueNodes:	True
+		Dcl
+			Editor
+				TabSize:	2
+				Font:	Courier New
+				FontSize:	10
+				AutoIndent:	True
+				ShowTabs:	True
+				ShowLins:	True
+			WindowPosition
+				X:	0
+				Y:	0
+				SizeX:	500
+				SizeY:	300
+		DclOpen:	False
+		Icl
+			Editor
+				TabSize:	2
+				Font:	Courier New
+				FontSize:	10
+				AutoIndent:	True
+				ShowTabs:	True
+				ShowLins:	True
+			WindowPosition
+				X:	0
+				Y:	0
+				SizeX:	500
+				SizeY:	300
+		IclOpen:	False
+		LastModified:	No 0 0 0 0 0 0
+	Module
+		Name:	avlTree
+		Dir:	{Application}\Functional.Library\avlTree
+		Compiler
+			NeverMemoryProfile:	False
+			NeverTimeProfile:	False
+			StrictnessAnalysis:	True
+			ListTypes:	AllTypes
+			ListAttributes:	True
+			Warnings:	True
+			Verbose:	True
+			ReadableABC:	True
+			ReuseUniqueNodes:	True
+		Dcl
+			Editor
+				TabSize:	2
+				Font:	Courier New
+				FontSize:	10
+				AutoIndent:	True
+				ShowTabs:	True
+				ShowLins:	True
+			WindowPosition
+				X:	0
+				Y:	0
+				SizeX:	500
+				SizeY:	300
+		DclOpen:	False
+		Icl
+			Editor
+				TabSize:	2
+				Font:	Courier New
+				FontSize:	10
+				AutoIndent:	True
+				ShowTabs:	True
+				ShowLins:	True
+			WindowPosition
+				X:	0
+				Y:	0
+				SizeX:	500
+				SizeY:	300
+		IclOpen:	False
+		LastModified:	No 0 0 0 0 0 0
+Static
+	Mods
+		Path:	{Application}\Functional.Library\avlTree\Examples\asymptotics.icl
+		Path:	{Application}\Functional.Library\avlTree\mapClass.icl
+		Path:	{Application}\Functional.Library\avlTree\setClass.icl
+		Path:	{Application}\Functional.Library\avlTree\sequenceClass.icl
+		Path:	{Application}\StdEnv\_SystemEnum.icl
+		Path:	{Application}\StdEnv\StdEnum.icl
+		Path:	{Application}\StdEnv\StdMisc.icl
+		Path:	{Application}\StdEnv\StdFunc.icl
+		Path:	{Application}\StdEnv\StdCharList.icl
+		Path:	{Application}\StdEnv\StdTuple.icl
+		Path:	{Application}\StdEnv\StdOrdList.icl
+		Path:	{Application}\StdEnv\StdList.icl
+		Path:	{Application}\StdEnv\StdClass.icl
+		Path:	{Application}\StdEnv\StdFile.icl
+		Path:	{Application}\StdEnv\StdString.icl
+		Path:	{Application}\StdEnv\_SystemArray.icl
+		Path:	{Application}\StdEnv\StdArray.icl
+		Path:	{Application}\StdEnv\StdChar.icl
+		Path:	{Application}\StdEnv\StdReal.icl
+		Path:	{Application}\StdEnv\StdInt.icl
+		Path:	{Application}\StdEnv\StdOverloaded.icl
+		Path:	{Application}\StdEnv\StdBool.icl
+		Path:	{Application}\StdEnv\StdEnv.icl
+		Path:	{Application}\Functional.Library\avlTree\orderClass.icl
+		Path:	{Application}\Functional.Library\avlTree\avlTree.icl
+	Objs
+		Path:	{Application}\StdEnv\Clean System Files\_startup0.o
+		Path:	{Application}\StdEnv\Clean System Files\_startup1.o
+		Path:	{Application}\StdEnv\Clean System Files\_startup2.o
+		Path:	{Application}\StdEnv\Clean System Files\_system.o
+		Path:	{Application}\Functional.Library\avlTree\Clean System Files\mapClass.o
+		Path:	{Application}\Functional.Library\avlTree\Clean System Files\setClass.o
+		Path:	{Application}\Functional.Library\avlTree\Clean System Files\sequenceClass.o
+		Path:	{Application}\StdEnv\Clean System Files\_SystemEnum.o
+		Path:	{Application}\StdEnv\Clean System Files\StdEnum.o
+		Path:	{Application}\StdEnv\Clean System Files\StdMisc.o
+		Path:	{Application}\StdEnv\Clean System Files\StdFunc.o
+		Path:	{Application}\StdEnv\Clean System Files\StdCharList.o
+		Path:	{Application}\StdEnv\Clean System Files\StdTuple.o
+		Path:	{Application}\StdEnv\Clean System Files\StdOrdList.o
+		Path:	{Application}\StdEnv\Clean System Files\StdList.o
+		Path:	{Application}\StdEnv\Clean System Files\StdClass.o
+		Path:	{Application}\StdEnv\Clean System Files\StdFile.o
+		Path:	{Application}\StdEnv\Clean System Files\StdString.o
+		Path:	{Application}\StdEnv\Clean System Files\_SystemArray.o
+		Path:	{Application}\StdEnv\Clean System Files\StdArray.o
+		Path:	{Application}\StdEnv\Clean System Files\StdChar.o
+		Path:	{Application}\StdEnv\Clean System Files\StdReal.o
+		Path:	{Application}\StdEnv\Clean System Files\StdInt.o
+		Path:	{Application}\StdEnv\Clean System Files\StdOverloaded.o
+		Path:	{Application}\StdEnv\Clean System Files\StdBool.o
+		Path:	{Application}\StdEnv\Clean System Files\StdEnv.o
+		Path:	{Application}\Functional.Library\avlTree\Clean System Files\orderClass.o
+		Path:	{Application}\Functional.Library\avlTree\Clean System Files\avlTree.o
+		Path:	{Application}\Functional.Library\avlTree\Examples\Clean System Files\asymptotics.o
+	Dlib
+		Path:	{Application}\StdEnv\Clean System Files\kernel_library
+		Path:	{Application}\StdEnv\Clean System Files\comdlg_library
+		Path:	{Application}\StdEnv\Clean System Files\gdi_library
+		Path:	{Application}\StdEnv\Clean System Files\user_library
+	Pths
+		Path:	{Application}\Functional.Library\avlTree\Examples
+		Path:	{Application}\Functional.Library\avlTree
+		Path:	{Application}\StdEnv
+		Path:	{Application}\MersenneTwister_101
+	AppP:	G:\Clean
+	PrjP:	G:\Clean\Functional.Library\avlTree\Examples
